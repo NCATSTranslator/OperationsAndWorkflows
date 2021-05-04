@@ -27,14 +27,14 @@ Beyond the constraints described by the TRAPI OpenAPI schema, we wish to selecti
               assert binding["id"] in message["knowledge_graph"]["edges"]
   ```
 
-* "unique query graph ids" - All qnode and qedge keys MUST be unique within the qgraph.
+* "unique query graph ids" - All qnode and qedge keys MUST be unique.
 
   ```python
   qelement_ids = list(message["query_graph"]["nodes"]) + list(message["query_graph"]["edges"])
   assert len(qelement_ids) == len(set(qelement_ids))
   ```
 
-* "unique knowledge graph ids" - All knode and kedge keys MUST be unique globally. i.e. the same id should not be used to refer to two distinct kedges, even in response to two completely distinct queries.
+* "unique knowledge graph ids" - All knode and kedge keys MUST be unique.
 
   ```python
   kelement_ids = list(message["knowledge_graph"]["nodes"]) + list(message["knowledge_graph"]["edges"])
