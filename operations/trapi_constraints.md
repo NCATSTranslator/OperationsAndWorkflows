@@ -41,7 +41,7 @@ Beyond the constraints described by the TRAPI OpenAPI schema, we wish to selecti
   assert len(kelement_ids) == len(set(kelement_ids))
   ```
 
-* "results complete" - All results include bindings for every qgraph element.
+* "results complete" - All results MUST include bindings for every qgraph element.
 
   ```python
   for result in message["results"]:
@@ -51,7 +51,7 @@ Beyond the constraints described by the TRAPI OpenAPI schema, we wish to selecti
           assert qedge_id in result["edge_bindings"]
   ```
 
-* "no orphaned knowledge graph elements" - All knowledge graph nodes and edges will be referenced by at least one result binding.
+* "no orphaned knowledge graph elements" - All knowledge graph nodes and edges MUST be referenced by at least one result binding.
 
   ```python
   bound_knodes = [
@@ -72,7 +72,7 @@ Beyond the constraints described by the TRAPI OpenAPI schema, we wish to selecti
       assert kedge_id in bound_kedges
   ```
 
-* "max X results" - There are no more than X results.
+* "max X results" - There MUST be no more than X results.
 
   ```python
   assert len(message["results"]) <= X
