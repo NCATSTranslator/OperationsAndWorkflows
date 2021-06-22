@@ -12,3 +12,4 @@
 - [overlay_compute_ngd](./overlay_compute_ngd.md)
 - [overlay_fisher_exact_test](./overlay_fisher_exact_test.md)
 - [restate](./restate.md)
+- [score](./score.md)
