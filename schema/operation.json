@@ -39,6 +39,9 @@
             "$ref": "#/$defs/OperationOverlayComputeNgd"
         },
         {
+            "$ref": "#/$defs/OperationOverlayConnectKnodes"
+        },
+        {
             "$ref": "#/$defs/OperationOverlayFisherExactTest"
         },
         {
@@ -386,6 +389,22 @@
             "required": [
                 "id",
                 "parameters"
+            ],
+            "additionalProperties": false
+        },
+        "OperationOverlayConnectKnodes": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "enum": [
+                        "overlay_connect_knodes"
+                    ]
+                },
+                "parameters": {}
+            },
+            "required": [
+                "id"
             ],
             "additionalProperties": false
         },
