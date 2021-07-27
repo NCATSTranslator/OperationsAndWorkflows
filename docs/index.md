@@ -3,6 +3,7 @@
 - [annotate](./annotate.md)
 - [bind](./bind.md)
 - [complete_results](./complete_results.md)
+- [enrich_results](./enrich_results.md)
 - [fill](./fill.md)
 - [filter_kgraph](./filter_kgraph.md)
 - [filter_kgraph_continuous_attribute](./filter_kgraph_continuous_attribute.md)
