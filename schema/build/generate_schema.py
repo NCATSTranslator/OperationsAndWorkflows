@@ -5,7 +5,6 @@ import glob
 import json
 from pathlib import Path
 import re
-from webbrowser import get
 
 import yaml
 from yaml.loader import SafeLoader
@@ -32,8 +31,8 @@ def generate_component(op: str):
                     op,
                 ],
             },
-            "parameters": data["parameters"],
             "unique": (True if data.get("unique") else False),
+            "parameters": data["parameters"],
         },
         "required": [
             "id",
