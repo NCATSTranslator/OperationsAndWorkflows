@@ -33,6 +33,41 @@ def generate_component(op: str):
             },
             "unique": (True if data.get("unique") else False),
             "parameters": data["parameters"],
+            "runner_parameters": {
+                "type": "object",
+                "oneOf": [
+                    {
+                        "properties": {
+                            "allowlist": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                "example": [
+                                    "icees"
+                                ],
+                                "minLength": 1
+                            },
+                        }
+                    },
+                    {
+                        "properties": {
+                            "denylist": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                "example": [
+                                    "icees"
+                                ],
+                                "minLength": 1
+                            },
+                        }
+                    },
+                ]
+            }
         },
         "required": [
             "id",
