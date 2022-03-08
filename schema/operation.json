@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "https://standards.ncats.io/operation/1.3.0/schema",
+    "$id": "https://standards.ncats.io/operation/1.4.0/schema",
     "anyOf": [
         {
             "$ref": "#/$defs/OperationAnnotate"
@@ -116,7 +116,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -131,7 +131,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -183,7 +183,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -198,7 +198,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -250,7 +250,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -265,7 +265,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -303,7 +303,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -318,7 +318,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -356,7 +356,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -371,7 +371,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -431,7 +431,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -446,7 +446,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -540,7 +540,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -555,7 +555,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -593,7 +593,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -608,7 +608,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -694,7 +694,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -709,7 +709,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -786,7 +786,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -801,7 +801,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -867,7 +867,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -882,7 +882,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -921,7 +921,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -936,7 +936,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1024,7 +1024,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1039,7 +1039,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1136,7 +1136,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1151,7 +1151,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1239,7 +1239,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1254,7 +1254,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1293,7 +1293,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1308,7 +1308,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1359,7 +1359,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1374,7 +1374,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1413,7 +1413,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1428,7 +1428,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1466,7 +1466,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1481,7 +1481,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1519,7 +1519,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1534,7 +1534,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1602,7 +1602,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1617,7 +1617,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1680,7 +1680,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1695,7 +1695,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1734,7 +1734,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1749,7 +1749,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1816,7 +1816,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1831,7 +1831,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1870,7 +1870,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1885,7 +1885,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1923,7 +1923,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1938,7 +1938,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1976,7 +1976,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -1991,7 +1991,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -2060,7 +2060,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -2075,7 +2075,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -2145,7 +2145,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -2160,7 +2160,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -2214,7 +2214,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may be used to complete operation. No others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
@@ -2229,7 +2229,7 @@
                                     "items": {
                                         "type": "string"
                                     },
-                                    "description": "List of operation providers that may not be used to complete operation. All others can be used.",
+                                    "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                     "example": [
                                         "aragorn"
                                     ],
