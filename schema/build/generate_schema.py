@@ -45,7 +45,7 @@ def generate_component(op: str):
                                 },
                                 "description": "List of operation providers (by title listed on SmartAPI registry) that may be used to complete operation. No others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the workflow runner.",
                                 "example": [
-                                    "aragorn"
+                                    "ARAX Translator Reasoner"
                                 ],
                                 "minLength": 1
                             },
@@ -60,7 +60,7 @@ def generate_component(op: str):
                                 },
                                 "description": "List of operation providers (by title listed on SmartAPI registry) that may not be used to complete operation. All others can be used. A full list of operation providers with titles is available through the '/services' endpoint of the worflow runner.",
                                 "example": [
-                                    "aragorn"
+                                    "ARAGORN"
                                 ],
                                 "minLength": 1
                             },
