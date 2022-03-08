@@ -45,7 +45,7 @@ def generate_component(op: str):
                                 },
                                 "description": "List of operation providers that may be used to complete operation. No others can be used.",
                                 "example": [
-                                    "icees"
+                                    "aragorn"
                                 ],
                                 "minLength": 1
                             },
@@ -60,7 +60,7 @@ def generate_component(op: str):
                                 },
                                 "description": "List of operation providers that may not be used to complete operation. All others can be used.",
                                 "example": [
-                                    "icees"
+                                    "aragorn"
                                 ],
                                 "minLength": 1
                             },
