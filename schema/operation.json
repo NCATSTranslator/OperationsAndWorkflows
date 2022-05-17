@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "https://standards.ncats.io/operation/1.2.0/schema",
+    "$id": "https://standards.ncats.io/operation/1.3.0/schema",
     "anyOf": [
         {
             "$ref": "#/$defs/OperationAnnotate"
@@ -105,7 +105,42 @@
                     ]
                 },
                 "unique": true,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -137,6 +172,41 @@
                             ]
                         }
                     }
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -169,6 +239,41 @@
                             ]
                         }
                     }
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -187,7 +292,42 @@
                     ]
                 },
                 "unique": false,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -205,7 +345,42 @@
                     ]
                 },
                 "unique": false,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -245,6 +420,41 @@
                             ]
                         }
                     }
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -319,6 +529,41 @@
                             "additionalProperties": false
                         }
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -337,7 +582,42 @@
                     ]
                 },
                 "unique": false,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -403,6 +683,41 @@
                         "threshold",
                         "remove_above_or_below"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -460,6 +775,41 @@
                         "edge_attribute",
                         "remove_value"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -506,6 +856,41 @@
                         "node_attribute",
                         "remove_value"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -525,7 +910,42 @@
                     ]
                 },
                 "unique": false,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -592,6 +1012,41 @@
                     },
                     "required": [
                         "edge_attribute"
+                    ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
                     ]
                 }
             },
@@ -670,6 +1125,41 @@
                     "required": [
                         "edge_attribute"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -738,6 +1228,41 @@
                     "required": [
                         "edge_attribute"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -757,7 +1282,42 @@
                     ]
                 },
                 "unique": false,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -788,6 +1348,41 @@
                     "required": [
                         "max_results"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -807,7 +1402,42 @@
                     ]
                 },
                 "unique": true,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -825,7 +1455,42 @@
                     ]
                 },
                 "unique": true,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -843,7 +1508,42 @@
                     ]
                 },
                 "unique": false,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -891,6 +1591,41 @@
                         "end_node_keys",
                         "virtual_relation_label"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -934,6 +1669,41 @@
                         "virtual_relation_label",
                         "qnode_keys"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -953,7 +1723,42 @@
                     ]
                 },
                 "unique": false,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -1000,6 +1805,41 @@
                         "object_qnode_key",
                         "virtual_relation_label"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -1019,7 +1859,42 @@
                     ]
                 },
                 "unique": true,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -1037,7 +1912,42 @@
                     ]
                 },
                 "unique": true,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -1055,7 +1965,42 @@
                     ]
                 },
                 "unique": false,
-                "parameters": {}
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "required": [
                 "id"
@@ -1103,6 +2048,41 @@
                     "required": [
                         "edge_attribute",
                         "ascending_or_descending"
+                    ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
                     ]
                 }
             },
@@ -1154,6 +2134,41 @@
                         "node_attribute",
                         "ascending_or_descending"
                     ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "required": [
@@ -1187,6 +2202,41 @@
                     },
                     "required": [
                         "ascending_or_descending"
+                    ]
+                },
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "ARAX Translator Reasoner"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "ARAGORN"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
                     ]
                 }
             },
