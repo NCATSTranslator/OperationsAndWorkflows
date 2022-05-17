@@ -464,7 +464,7 @@
         },
         "OperationFill": {
             "type": "object",
-            "description": "This operation adds knodes and kedges.",
+            "description": "This operation adds knodes and kedges. Any constraints attached to QNodes and QEdges specified in the TRAPI must be respected.",
             "properties": {
                 "id": {
                     "type": "string",
@@ -595,8 +595,7 @@
                                     },
                                     "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
-                                        "infores:aragorn"
-                                    ],
+                                        "infores:aragorn"                    ],
                                     "minLength": 1
                                 }
                             }
@@ -1393,7 +1392,7 @@
         },
         "OperationLookup": {
             "type": "object",
-            "description": "This operation adds knodes/kedges and (complete) results. It is equivalent to the workflow fill + bind + complete_results.",
+            "description": "This operation adds knodes/kedges and (complete) results. It is equivalent to the workflow fill + bind + complete_results. Any constraints attached to QNodes and QEdges specified in the TRAPI must be respected.",
             "properties": {
                 "id": {
                     "type": "string",
@@ -1446,7 +1445,7 @@
         },
         "OperationLookupAndScore": {
             "type": "object",
-            "description": "This operation adds knodes/kedges, (complete) results, and scores (to the results). It is equivalent to the workflow fill + bind + complete_results + score.",
+            "description": "This operation adds knodes/kedges, (complete) results, and scores (to the results). It is equivalent to the workflow fill + bind + complete_results + score. Any constraints attached to QNodes and QEdges specified in the TRAPI must be respected.",
             "properties": {
                 "id": {
                     "type": "string",
