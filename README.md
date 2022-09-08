@@ -13,3 +13,6 @@ Initially, design considerations will be discussed and voted on. Eventually, the
 # Workflow Runner
 The following repo will, after you stand it up, provide an endpoint to which you can post workflows and registered ARAs will execute the operations they have implemented.
 https://github.com/NCATSTranslator/workflow-runner
+
+# New Operations
+Creation of a new operation involves generation of the operation definition in the `operations` directory, then rebuilding the docs with `docs/build/generate_docs.py` and the schema with `schema/build/generate_schema.py`
