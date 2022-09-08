@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "https://standards.ncats.io/operation/1.3.2/schema",
+    "$id": "https://standards.ncats.io/operation/1.4.2/schema",
     "anyOf": [
         {
             "$ref": "#/$defs/OperationAnnotate"
@@ -58,6 +58,9 @@
         },
         {
             "$ref": "#/$defs/OperationLookupAndScore"
+        },
+        {
+            "$ref": "#/$defs/OperationNormalizeNodes"
         },
         {
             "$ref": "#/$defs/OperationOverlay"
@@ -595,7 +598,8 @@
                                     },
                                     "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
                                     "example": [
-                                        "infores:aragorn"                    ],
+                                        "infores:aragorn"
+                                    ],
                                     "minLength": 1
                                 }
                             }
@@ -1454,6 +1458,59 @@
                     ]
                 },
                 "unique": true,
+                "parameters": {},
+                "runner_parameters": {
+                    "type": "object",
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "allowlist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may be used to complete operation. No others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the workflow runner.",
+                                    "example": [
+                                        "infores:aragorn"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "denylist": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "description": "List of operation providers (by infores ID) that may not be used to complete operation. All others will be used. A full list of operation providers for each operation with infores ID's is available through the '/services' endpoint of the worflow runner.",
+                                    "example": [
+                                        "infores:aragorn"
+                                    ],
+                                    "minLength": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "additionalProperties": false
+        },
+        "OperationNormalizeNodes": {
+            "type": "object",
+            "description": "This operation updates the identifiers on qgraph and kgraph nodes to their preferred identifiers, and adds equivalent identifiers in a property for knodes.  When two kgraph nodes normalize to the same  preferred identifier, the two knodes are merged.  The new node contain the union of the properties of the two original nodes.  All edges attached to either of the two original nodes are now subsequently attached to the new merged knode.  Qnodes are not merged, so that the structure of the query can be preserved.   The updates to kgraph node identifiers also necessitates the updating of result node bindings.",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "enum": [
+                        "normalize_nodes"
+                    ]
+                },
+                "unique": false,
                 "parameters": {},
                 "runner_parameters": {
                     "type": "object",
