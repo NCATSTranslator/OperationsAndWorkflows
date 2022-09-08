@@ -13,4 +13,4 @@ allowed_changes:
 - remove knodes
 - modify kedges
 - modify node bindings
-parameters: []
+parameters: {}

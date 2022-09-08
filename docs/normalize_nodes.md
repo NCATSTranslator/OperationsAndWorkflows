@@ -26,5 +26,5 @@ None
 ### parameters
 
 ```yaml
-[]
+{}
 ```
