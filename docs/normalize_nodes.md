@@ -4,7 +4,8 @@ This operation updates the identifiers on qgraph and kgraph nodes to their prefe
 
 ### examples
 
-- [input](../examples/normalize_nodes/messages/01_premerged_message.json), [output](../examples/normalize_nodes/messages/02_postmerged_message.json)
+- [input](../examples/normalize_nodes/messages/01_prenormalized_message.json), [output](../examples/)
+- [input](../examples/), [output](../examples/normalize_nodes/messages/02_postnormalized_message.json)
 
 ### input requirements
 
