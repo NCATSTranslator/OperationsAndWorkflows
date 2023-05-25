@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "https://standards.ncats.io/operation/1.3.4/schema",
+    "$id": "https://standards.ncats.io/operation/1.3.5/schema",
     "anyOf": [
         {
             "$ref": "#/$defs/OperationAnnotate"
@@ -108,7 +108,8 @@
                     ],
                     "minLength": 1
                 }
-            }
+            },
+            "additionalProperties": false
         },
         "DenyList": {
             "type": "object",
@@ -124,9 +125,11 @@
                     ],
                     "minLength": 1
                 }
-            }
+            },
+            "additionalProperties": false
         },
         "RunnerParameters": {
+            "type": "object",
             "oneOf": [
                 {
                     "$ref": "#/$defs/AllowList"
