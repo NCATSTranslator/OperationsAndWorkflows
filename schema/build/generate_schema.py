@@ -49,6 +49,11 @@ def generate_component(op: str):
                                 ],
                                 "minLength": 1
                             },
+                            "timeout": {
+                                "type": "float",
+                                "description": "Time allowed for this operation to completed by a service",
+                                "example": 60.0
+                            }
                         }
                     },
                     {
@@ -64,6 +69,11 @@ def generate_component(op: str):
                                 ],
                                 "minLength": 1
                             },
+                            "timeout": {
+                                "type": "float",
+                                "description": "Time allowed for this operation to completed by a service",
+                                "example": 60.0
+                            }
                         }
                     },
                 ]
