@@ -47,12 +47,14 @@ def generate_component(op: str):
                                 "example": [
                                     "infores:aragorn"
                                 ],
-                                "minLength": 1
+                                "minLength": 1,
+                                "nullable": True
                             },
                             "timeout": {
                                 "type": "float",
                                 "description": "Time allowed for this operation to completed by a service",
-                                "example": 60.0
+                                "example": 60.0,
+                                "nullable": True
                             }
                         }
                     },
@@ -67,12 +69,14 @@ def generate_component(op: str):
                                 "example": [
                                     "infores:aragorn"
                                 ],
-                                "minLength": 1
+                                "minLength": 1,
+                                "nullable": True
                             },
                             "timeout": {
                                 "type": "float",
                                 "description": "Time allowed for this operation to completed by a service",
-                                "example": 60.0
+                                "example": 60.0,
+                                "nullable": True
                             }
                         }
                     },

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "https://standards.ncats.io/operation/1.4.5/schema",
+    "$id": "https://standards.ncats.io/operation/1.5.5/schema",
     "anyOf": [
         {
             "$ref": "#/$defs/OperationAnnotate"
@@ -120,12 +120,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -140,12 +142,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -197,12 +201,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -217,12 +223,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -274,12 +282,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -294,12 +304,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -337,12 +349,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -357,12 +371,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -400,12 +416,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -420,12 +438,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -485,12 +505,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -505,12 +527,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -604,12 +628,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -624,12 +650,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -667,12 +695,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -687,12 +717,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -778,12 +810,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -798,12 +832,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -880,12 +916,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -900,12 +938,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -971,12 +1011,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -991,12 +1033,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1035,12 +1079,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1055,12 +1101,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1148,12 +1196,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1168,12 +1218,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1270,12 +1322,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1290,12 +1344,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1383,12 +1439,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1403,12 +1461,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1447,12 +1507,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1467,12 +1529,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1523,12 +1587,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1543,12 +1609,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1587,12 +1655,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1607,12 +1677,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1650,12 +1722,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1670,12 +1744,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1713,12 +1789,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1733,12 +1811,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1806,12 +1886,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1826,12 +1908,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1894,12 +1978,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1914,12 +2000,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -1958,12 +2046,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -1978,12 +2068,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -2050,12 +2142,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -2070,12 +2164,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -2114,12 +2210,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -2134,12 +2232,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -2177,12 +2277,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -2197,12 +2299,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -2240,12 +2344,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -2260,12 +2366,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -2334,12 +2442,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -2354,12 +2464,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -2429,12 +2541,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -2449,12 +2563,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
@@ -2508,12 +2624,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         },
@@ -2528,12 +2646,14 @@
                                     "example": [
                                         "infores:aragorn"
                                     ],
-                                    "minLength": 1
+                                    "minLength": 1,
+                                    "nullable": true
                                 },
                                 "timeout": {
                                     "type": "float",
                                     "description": "Time allowed for this operation to completed by a service",
-                                    "example": 60.0
+                                    "example": 60.0,
+                                    "nullable": true
                                 }
                             }
                         }
