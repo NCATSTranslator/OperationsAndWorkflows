@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "https://standards.ncats.io/operation/1.5.5/schema",
+    "$id": "https://standards.ncats.io/operation/1.6.5/schema",
     "anyOf": [
         {
             "$ref": "#/$defs/OperationAnnotate"
@@ -124,7 +124,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -146,7 +146,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -205,7 +205,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -227,7 +227,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -286,7 +286,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -308,7 +308,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -353,7 +353,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -375,7 +375,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -420,7 +420,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -442,7 +442,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -509,7 +509,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -531,7 +531,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -632,7 +632,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -654,7 +654,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -699,7 +699,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -721,7 +721,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -814,7 +814,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -836,7 +836,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -920,7 +920,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -942,7 +942,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1015,7 +1015,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1037,7 +1037,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1083,7 +1083,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1105,7 +1105,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1200,7 +1200,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1222,7 +1222,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1326,7 +1326,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1348,7 +1348,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1443,7 +1443,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1465,7 +1465,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1511,7 +1511,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1533,7 +1533,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1591,7 +1591,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1613,7 +1613,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1659,7 +1659,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1681,7 +1681,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1726,7 +1726,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1748,7 +1748,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1793,7 +1793,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1815,7 +1815,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1890,7 +1890,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1912,7 +1912,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -1982,7 +1982,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2004,7 +2004,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2050,7 +2050,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2072,7 +2072,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2146,7 +2146,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2168,7 +2168,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2214,7 +2214,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2236,7 +2236,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2281,7 +2281,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2303,7 +2303,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2348,7 +2348,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2370,7 +2370,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2446,7 +2446,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2468,7 +2468,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2545,7 +2545,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2567,7 +2567,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2628,7 +2628,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true
@@ -2650,7 +2650,7 @@
                                     "nullable": true
                                 },
                                 "timeout": {
-                                    "type": "float",
+                                    "type": "number",
                                     "description": "Time allowed for this operation to completed by a service",
                                     "example": 60.0,
                                     "nullable": true

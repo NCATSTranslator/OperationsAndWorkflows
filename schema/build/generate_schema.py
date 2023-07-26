@@ -51,7 +51,7 @@ def generate_component(op: str):
                                 "nullable": True
                             },
                             "timeout": {
-                                "type": "float",
+                                "type": "number",
                                 "description": "Time allowed for this operation to completed by a service",
                                 "example": 60.0,
                                 "nullable": True
@@ -73,7 +73,7 @@ def generate_component(op: str):
                                 "nullable": True
                             },
                             "timeout": {
-                                "type": "float",
+                                "type": "number",
                                 "description": "Time allowed for this operation to completed by a service",
                                 "example": 60.0,
                                 "nullable": True
